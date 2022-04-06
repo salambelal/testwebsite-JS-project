@@ -304,12 +304,12 @@ body{
     margin: 20px 0 10px;
     cursor: pointer;
     transition: 0.3s ease;
-
+   display: none;
 }
 .onSubmit:hover{
     transform: scale(1.05);
     background-color: #4a54f1;
-    display: none;
+ 
 }
 .test-page .sure{
     position: absolute;
@@ -393,4 +393,7 @@ color: #4a54f1;
 }
 .last-answer{
     display: none !important;
+}
+.finish{
+    display: block;
 }
