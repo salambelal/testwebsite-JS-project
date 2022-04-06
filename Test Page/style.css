@@ -304,7 +304,7 @@ body{
     margin: 20px 0 10px;
     cursor: pointer;
     transition: 0.3s ease;
-   display: none;
+
 }
 .onSubmit:hover{
     transform: scale(1.05);
