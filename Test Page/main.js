@@ -110,14 +110,20 @@ myAnswer = [].slice.call(questions2[active].children[1].children);
 }
 function addActive(){
 if(path==1 || path==2){
+    if(active==3){
+        submit.classList.remove('finish')
+    }
 if(active==4){
     dots.children[4].classList.add("active-dot")
-     submit.classList.remove('finish')
+     
 }else{active++}}
 if(path==3){
+    if(active==8){
+        submit.classList.remove('finish')
+    }
     if(active==9){
         dots.children[9].classList.add("active-dot")
-        submit.classList.remove('finish')
+        
         
     }else{active++}
 }
